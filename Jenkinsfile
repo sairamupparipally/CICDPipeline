@@ -16,7 +16,7 @@ node {
     
     stage('Clone Repo') { 
       // Get some code from a GitHub repository
-      git url:'https://github.com/sairamupparipally/Project-CICD.git',branch:'main'
+      git url:'https://github.com/sairamupparipally/CICDPipeline.git',branch:'main'
       // Get the Maven tool.
       // ** NOTE: This 'maven-3.5.2' Maven tool must be configured
       // **       in the global configuration.           
